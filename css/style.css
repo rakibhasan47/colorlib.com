@@ -40,7 +40,7 @@ html {
     font-size: 62.5%;
     font-family: 'Roboto', sans-serif;
 }
-
+/*---------------- navbar start ----------------*/
 li {
     list-style: none;
 }
@@ -51,20 +51,16 @@ a {
 
 
 .header{
-  border-bottom: 1px solid #E2E8F0;
   background-image: linear-gradient( 83.2deg,  #A833FE 10.8%, #8D3EFC 94.3% );
-
-
 }
 .container{
-  max-width: 1170px;
+  max-width: 1180px;
   margin: auto;
 }
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 1.5rem;
   height: 60px;
 }
 
@@ -94,7 +90,7 @@ a {
 }
 
 .nav-item {
-  margin-left: 45px;
+  margin-left: 40px;
 }
 
 .nav-link{
@@ -140,8 +136,6 @@ a {
 
 }
 
-
-
 .hamburger.active .bar:nth-child(2) {
   opacity: 0;
 }
@@ -153,3 +147,49 @@ a {
 .hamburger.active .bar:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
 }
+/*---------------- navbar end ----------------*/
+
+
+
+/*---------------- header section start ------*/
+.header-container{
+  background-image: linear-gradient( 83.2deg,  #A833FE 10.8%, #8D3EFC 94.3% );
+}
+.container-item{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.container-item h1{
+  font-size: 60px;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+  color: #f1ebeb;
+  margin-top: 35%;
+}
+.container-item p{
+  font-size: 15px;
+  margin-top: 20px;
+  color: #ddd5d5;
+  margin-bottom: 50px;
+  
+}
+.explore-now-btn{
+  font-size: 14px;
+  color: rgb(19, 18, 18);
+  background-color: white;
+  padding: 18px 50px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.explore-now-btn:hover{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+.header-container-image img{
+  margin-top: 90px;
+  height: 600px;
+  margin-left: 50%;
+}
+
+
+
+/*---------------- header section end ------*/
