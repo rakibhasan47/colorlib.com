@@ -333,12 +333,11 @@ a {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
-.pricing-table-row{
-  margin-bottom: 550px;
-}
+
 .table-row{
   height: 430px;
   width: 355px;
+  border-radius: 5px;
   background-color: #ffffff;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
@@ -401,3 +400,243 @@ a {
 }
 
 /*----------- Pricing Table section end --------------*/
+
+/*----------- Unique Screenshots section start -------*/
+.unique-screenshots{
+  height: 50px;
+  width: 100%;
+  background-color: #F9F9FF;
+  margin-top: 100px;
+}
+.unique-screenshots-heading{
+  text-align: center;
+  background-color: #F9F9FF;
+}
+.unique-screenshots-heading h1{
+  font-size: 36px;
+  line-height: 43px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.unique-screenshots-heading p{
+  font-size: 14px;
+  line-height: 25px;
+  color: #777777;
+}
+.unique-screenshots-image{
+  background-color: #F9F9FF;
+}
+.img-row img{
+  margin-top: 70px;
+  padding: 0px 0px 0px 18px;
+
+}
+
+/*----------- Unique Screenshots section end ---------*/
+
+
+/*----------- Testimonials start ---------------------*/
+.testimonials{
+  background-color: #F9F9FF;
+}
+.testimonials-row{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.box-row{
+  margin-top: 70px;
+  height: 220px;
+  width: 541px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  display: grid;
+  grid-template-columns: repeat(auto auto);
+}
+.testimonials-img img{
+  margin-left: 40px;
+  margin-top: 30px;
+}
+.profile-text{
+  margin-left: 150px;
+  margin-top: -120px;
+}
+.profile-text p{
+  font-size: 14px;
+  line-height: 23px;
+  color: #777777;
+  font-weight: 400;
+}
+.profile-text h2{
+  color: #777777;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.profile-text h3{
+  color: #868e96;
+  font-size: 14px;
+}
+.testimonials-extra-width{
+  background-color: #F9F9FF;
+  height: 100px;
+  width: 100%;
+}
+/*----------- Testimonials end -----------------------*/
+
+/*----------- Download This App start -----------------*/
+.download-extra-width{
+  height: 100px;
+  width: 100%;
+  background-image: linear-gradient( 83.2deg, #B92CFF  10.8%, rgba(99,88,238,1) 94.3% );
+}
+.download{
+  height: 350px;
+  width: 100%;
+  background-image: linear-gradient( 83.2deg, #B92CFF  10.8%, rgba(99,88,238,1) 94.3% );
+}
+.download-text{
+  text-align: center;
+}
+.download-text h1{
+  font-size: 36px;
+  color: white;
+  line-height: 34px;
+  font-weight: 600;
+}
+.download-text p{
+  font-size: 14px;
+  color: white;
+  margin-top: 20px;
+  line-height: 24px;
+  font-weight: 400;
+}
+.download-button{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.button{
+  height: 80px;
+  width: 230px;
+  border: 1px solid white;
+  margin-left: 420px;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border-radius: 10px;
+  
+}
+.button-right{
+  margin-left: -5px;
+}
+.button i{
+  margin-top: 15px;
+  margin-left: 30px;
+  font-size: 50px;
+  color: white;
+}
+
+.button-heading{
+  margin-left: -20px;
+  margin-top: 15px;
+}
+.button-heading h3{
+  font-size: 23px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  line-height: 28px;
+  color: white;
+}
+.button-heading h5{
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+}
+
+/*----------- Download This App end -------------------*/
+.latest-news{
+  margin-top: 100px;
+  background-color: white;
+}
+.latest-news-row{
+  margin-bottom: 50px;
+}
+.display-flex-row{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.latest-news-box a{
+  color: #777777;
+  font-size: 13px;
+  margin-left: 25px;
+  padding: 6px 20px;
+  border: 1px solid gray;
+}
+.latest-news-box h4{
+  color: #000;
+  margin-top: 40px;
+  margin-left: 25px;
+  font-weight: 500;
+  line-height: 30px;
+  font-size: 20px;
+}
+.latest-news-box p{
+  color: #777777;
+  margin-top: 20px;
+  font-size: 14px;
+  margin-left: 25px;
+  line-height: 20px;
+}
+.latest-news-box{
+  height: 350px;
+  width: 360px;
+  margin-top: 100px;
+  border-radius: 5px;
+  background-color: #F9F9FF;
+  transition: all 0.5s ease;
+}
+.latest-news-box:hover{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.latest-extra-width{
+  height: 40px;
+  width: 350px;
+  background-color: #F9F9FF;
+}
+.icon-box{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.icon-box i{
+  color: #aaa;
+  font-size: 15px;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+.icon-box p{
+  font-size: 14px;
+  margin-top: -18px;
+  color: #aaa;
+}
+.margin-p{
+  margin-left: 25px;
+}
+.icon-row{
+  position: relative;
+}
+.icon-margin-2{
+  margin-left: -50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
