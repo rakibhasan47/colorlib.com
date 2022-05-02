@@ -552,14 +552,15 @@ a {
   font-weight: 500;
   color: white;
 }
-
 /*----------- Download This App end -------------------*/
+
+/*----------- Latest News -----------------------------*/
 .latest-news{
   margin-top: 100px;
   background-color: white;
 }
 .latest-news-row{
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 .display-flex-row{
   display: grid;
@@ -627,10 +628,129 @@ a {
 .icon-margin-2{
   margin-left: -50px;
 }
+/*----------- Latest News -----------------------------*/
+
+/*----------- fotter 1 ----------------------------------*/
+.fotter-extra-width{
+  height: 100px;
+  background-color: #222222;
+}
+.fotter-section{
+  background-color: #222222;
+  height: 250px;
+  width: 100%;
+}
+.fotter-section-row{
+  display: grid;
+  grid-template-columns: 270px auto 310px;
+}
+.fotter-box-1 h1{
+  color: white;
+  margin-bottom: 30px;
+}
+.fotter-box-1 a{
+  color: #c7bbbb;
+  font-size: 15px;
+  font-weight: 300;
+}
+.fotter-box-2 h1{
+  color: white;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.fotter-box-2 p{
+  font-size: 16px;
+  color: #c7bbbb;
+}
+.fotter-box-2 input{
+  height: 38px;
+  margin-top: 30px;
+  width: 400px;
+  border: none;
+  padding: 15px;
+  border-radius: 20px;
+}
+input[type="text"]{
+  outline: none;
+} 
+.fotter-box-2{
+  position: relative;
+}
+.fotter-box-2 a{
+  background-image: linear-gradient( 83.2deg, #B92CFF  10.8%, rgba(99,88,238,1) 94.3% );
+  color: white;
+  padding: 12px 30px;
+  font-size: 14px;
+  border-radius: 20px;
+  position: absolute;
+  margin-top: 28px;
+  margin-left: -25px;
+}
+.fotter-box-3{
+  margin-left: 15px;
+}
+.fotter-box-3 h1{
+  color: white;
+  margin-bottom: 30px;
+}
+.gallery-1 img{
+  padding:  0px 0px 5px 5px;
+}
+/*----------- fotter 1 ----------------------------------*/
+/*----------- fotter 2 ----------------------------------*/
+
+.fotter-2{
+  height: 100px;
+  width: 100%;
+  background-color: #222222;
+}
+.fotter-row{
+  display: grid;
+  grid-template-columns: auto 200px;
+}
+.text-icon p{
+  font-size: 15px;
+  color: #c7bbbb;
+}
+.text-icon i{
+  color: #6247ea;
+  opacity: 70%;
+}
+.text-icon a{
+  color: #6247ea;
+  opacity: 70%;
+}
+.fontawesome-icon{
+  font-size: 13px;
+  color: white;
+  margin-left: 10px;
+}
+.fontawesome-icon i{
+  background-color: #000;
+  padding:  10px;
+  margin-left: 5px;
+  transition: all 0.4s;
+}
+.fontawesome-icon i:hover{
+  background-image: linear-gradient( 83.2deg, #B92CFF  10.8%, rgba(99,88,238,1) 94.3% );
+}
+.fontawesome-icon .facebook{
+  background-color: #000;
+  height: 33px;
+  width: 33px;
+  margin-left: -5px;
+}
 
 
 
 
+
+
+
+
+
+
+/*----------- fotter 2 ----------------------------------*/
 
 
 
